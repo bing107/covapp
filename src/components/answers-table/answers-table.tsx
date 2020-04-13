@@ -82,6 +82,7 @@ export class AnswersTable {
           open={false}
           headerBackgroundColor={getRootCSSPropertyValue('--c-gray')}
           classes="accordion--no-panel-border accordion--no-panel-padding"
+          //@ts-ignore
           buttonProps={props}
         >
           <p class="o-accordion-headline" slot="accordion-header">

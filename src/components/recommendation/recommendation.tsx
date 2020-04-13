@@ -35,6 +35,7 @@ export class Recommendation {
           <d4l-accordion
             open={false}
             headerBackgroundColor={getRootCSSPropertyValue('--c-gray')}
+            //@ts-ignore
             buttonProps={{
               'data-test': 'toggleInformationHotline',
             }}
@@ -57,6 +58,7 @@ export class Recommendation {
           <d4l-accordion
             open={false}
             headerBackgroundColor={getRootCSSPropertyValue('--c-gray')}
+            //@ts-ignore
             buttonProps={{
               'data-test': 'toggleTelemedicine',
             }}
